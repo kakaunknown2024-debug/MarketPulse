@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.login-card {
+  width: 350px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.login-header {
+  background: linear-gradient(45deg, #1e7e34,  #28a745);
+  padding: 25px;
+  text-align: center;
+}
+
+.login-header h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.login-form {
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  padding: 12px 18px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #b23dd6;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.forgot {
+  color: #4e73df;
+  cursor: pointer;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg,#1e7e34,  #28a745 );
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.signup {
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup span {
+  color: #4e73df;
+  cursor: pointer;
+  font-weight: 500;
+}
